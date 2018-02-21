@@ -69,7 +69,7 @@ export default class RouteDrawer extends React.Component {
                           {route.routeName}
                           <div style={{marginLeft:"5px", display:'inline'}}>
                               <ExcelFile>
-                                  <ExcelSheet dataSet={route.excelData} name={route.routeId+"."+route.routeName} />
+                                  <ExcelSheet dataSet={route.excelData} name={route.id+"."+route.routeName} />
                                   {/* <!-- You can add more ExcelSheets if you need --> */}
                               </ExcelFile>
                           </div>
